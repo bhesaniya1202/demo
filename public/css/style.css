@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Pizzolla:wght@200;300;400;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pizzolla",serif;
+}
+
+:root{
+    --main-bg:#1e272e;
+    --main-color:#0097e6;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.row{
+    margin: 0;
+}
+
+.main_menu{
+    background-color: var(--main-bg);
+}
+
+.navbar{
+    color: #fff;
+    background-color: var(--main-bg);
+    padding: 2rem 0;
+}
+
+.navbar li{
+    margin-left: 2rem;
+}
+
+.navbar a{
+    color: #fff;
+    /* background-color: var(--main-bg); */
+    /* padding: 2rem 0; */
+    font-size: 1.8rem;
+}
+
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+.navbar-toggler{
+    background-color: grey;
+}
+
+.fa-snowflake{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+}
+@keyframes rot {
+    0%{
+        transform:rotate(360deg);
+    }
+    0%{
+        transform:rotate(360deg);
+    }
+}
+
